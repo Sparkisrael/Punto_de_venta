@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+	background: linear-gradient(90deg, #C7C5F4, #776BCC);		
+}
+/*codigo de diseño de login*/
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+.screen {	
+    padding: 45px;
+    padding-top: 55px;
+	background: rgb(255, 255, 255);		
+	position: relative;	
+	height: 350px;
+	width: 250px;	
+	box-shadow: 0px 0px 24px #5C5696;
+}
+.form{
+	padding: 20px;
+	padding-top: 50px;
+}
+.caja_texto{
+	width: 95%;
+	padding: 5px;
+	border: none;
+	outline: none;
+	border-bottom: solid 2px #776BCC;
+	font-size: 15px;
+}
+.validar{
+	margin: auto;
+	width: 100%;
+	padding: 10px;
+	margin-top: 25px;
+	background: #d5d3f8;
+	outline: none;
+	border: none;
+	color: #776BCC;
+	border:solid 1px #776BCC;
+	cursor: pointer;
+}
+.validar:hover{
+	background: #5C5696;
+	color: #fff;
+}
+/*------------------------------------------------*/
+.barra_nav{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	background: #fff;
+	border-bottom: solid 1px rgb(136, 19, 232);
+}
+.contenedor_opciones{
+	/* z-index: 20; */
+	width: 65%;
+	height: 500px;
+	padding: 25px;
+	background-color: #d5d3f8;
+	margin: auto;
+	border-radius: 0px 0px 15px 15px;
+}
+.contenedor_opciones input[type='button']{
+	width: 250px;
+}
